@@ -1,0 +1,36 @@
+<!-- Austin Moore      Week 3 assignment Mission Control Operator Login  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- This is for my css text file  -->
+    <link rel="stylesheet" type="text/css" href="body.css">
+    <!-- This is for my javascript file  -->
+    <script src = "forms.js"></script>
+    <script src = "strings.js"></script>
+   <!--This is the title of my file name  -->
+    <title>UAT Space Program</title>
+</head>
+<body>
+    <!-- This is the title of the website  -->
+    <h1>UAT Space Program</h1>
+    <br>
+    <!-- This is for the login  -->
+    <p id = "loginStatus" > Status of login</p> 
+    <!-- This is a return form  -->
+    <form id = "loginStatus" onsubmit = "return false">
+    <!-- This is where the person has to enter there full name  -->
+        Full Name: <input type = "text" id = "Name"/>
+    <br>
+    <!-- This is for there password  -->
+    Password <input type = "text" id = "Password"/>
+    <br> 
+    <!-- This is for there custom badge number  -->
+    Badge ID number <input type = "number" id = "BadgeID"/>
+    <!-- This lets you know its checking the credentials   -->
+    <input type = "submit"  onclick = "checkCreds()"/> 
+    </form>   
+</body>
+</html>
